@@ -26,7 +26,7 @@ let MugImage="https://res.cloudinary.com/dqr1ihw8d/image/upload/v1709795661/asyk
   let NewInputValue3=''
    let NewInputValue4=''
  
-console.log(level+"level h ji")
+
 
     const[beta ,setBeta]=useState(Linksdata[i].title)
 
@@ -113,9 +113,7 @@ function clickHandlerback(){
 
 }
 
-let res=Array.from({length:15})
-console.log("res here",res);
-console.log(typeof(res))
+
  
   return (
 
