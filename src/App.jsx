@@ -51,7 +51,7 @@ function clickHandler(){
 
         (i<23) ?(setI(i=i+1)):(i=0)
         setBeta(Linksdata[i].title)
-        let pk = (Linksdata[i].BOX)
+        let BoxData = (Linksdata[i].BOX)
         let dk = (Linksdata[i].id)
         if(Linksdata[i].id===20){
           setChild(false)
@@ -71,7 +71,7 @@ function clickHandler(){
           setChild(true)
         }
         setScore(dk)
-        setLevel(pk)
+        setLevel(BoxData)
         setChangeInputValue("")
        
    
@@ -82,8 +82,8 @@ function clickHandler(){
 function clickHandlerback(){
      (i>0) ?(setI(i=i-1)):(i=0)
         setBeta(Linksdata[i].title)
-        let pk = (Linksdata[i].BOX)
-        setLevel(pk)
+        let BoxData = (Linksdata[i].BOX)
+        setLevel(BoxData)
         setChangeInputValue("")
         if(Linksdata[i].id===20){
           setChild(false)
@@ -122,7 +122,7 @@ console.log(typeof(res))
 // main screen div 
     
 <div className='maindiv w-[100vw] h-[100vh]' >
-   <div className=' flex  justify-center pitems-center'>
+   <div className=' flex  justify-center items-center'>
 
    <h1 className='text-center mt-[10px]  text-pink-400 font-bold text-[50px] '>FLEXBOX CUP </h1> 
   </div> 

@@ -27,14 +27,14 @@
    }
 }
 .box{
-   animation: pk;
+   animation: Box;
    animation-duration: 4s;
    animation-iteration-count: infinite;
  animation-timing-function: linear; 
 
 }
 
-@keyframes pk {
+@keyframes Box {
    0%{
        transform: translateY(0px);
    }
