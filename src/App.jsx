@@ -37,10 +37,10 @@ console.log(level+"level h ji")
 function changeHandler(e){
   setChangeInputValue(e.target.value);
 
-if (score==21){
+if (score===21){
   setInputValue(e.target.value)
 }
-if (score==20){
+if (score===20){
   setInputValue2(e.target.value)
  }
 
@@ -53,14 +53,14 @@ function clickHandler(){
         setBeta(Linksdata[i].title)
         let pk = (Linksdata[i].BOX)
         let dk = (Linksdata[i].id)
-        if(Linksdata[i].id==20){
+        if(Linksdata[i].id===20){
           setChild(false)
           setNewInputValue2('order-last')
           setCupBox(2)
          
          
         }
-        else if(Linksdata[i].id==21){
+        else if(Linksdata[i].id===21){
           setNewInputValue2('')
           setChild(false);
           setNewInputValue('self-end')
@@ -85,14 +85,14 @@ function clickHandlerback(){
         let pk = (Linksdata[i].BOX)
         setLevel(pk)
         setChangeInputValue("")
-        if(Linksdata[i].id==20){
+        if(Linksdata[i].id===20){
           setChild(false)
           setNewInputValue2('order-last')
           setNewInputValue('')
           setCupBox(2)
          
         }
-        else if(Linksdata[i].id==21){
+        else if(Linksdata[i].id===21){
           setNewInputValue2('')
           setChild(false);
           setNewInputValue('self-end')
@@ -140,7 +140,7 @@ console.log(typeof(res))
       <div
       key={index}
     
-      className={`child-div ${index >= level? 'bg-blue-500 hidden' : index%2==0?(' border-b-[10px] border-r-[10px] border-l-[10px]  w-[50px] h-[50px] sm:w-[60px] sm:h-[60px]     md:w-[100px] md:h-[100px] border-black'):(' border-b-[10px]  border-r-[10px] border-l-[10px] borderdiv w-[50px] h-[50px] sm:w-[60px] sm:h-[60px]     md:w-[100px] md:h-[100px] ')}`}
+      className={`child-div ${index >= level? 'bg-blue-500 hidden' : index%2===0?(' border-b-[10px] border-r-[10px] border-l-[10px]  w-[50px] h-[50px] sm:w-[60px] sm:h-[60px]     md:w-[100px] md:h-[100px] border-black'):(' border-b-[10px]  border-r-[10px] border-l-[10px] borderdiv w-[50px] h-[50px] sm:w-[60px] sm:h-[60px]     md:w-[100px] md:h-[100px] ')}`}
     >
    
       
@@ -160,7 +160,7 @@ console.log(typeof(res))
        
          className={`  flex justify-center items-center child-div ${index >= level? 'bg-blue-500 hidden' : index%2==0?(' box w-[50px] h-[50px] sm:w-[60px] sm:h-[60px]     md:w-[100px] md:h-[100px]'):('  box w-[50px] h-[50px] sm:w-[60px] sm:h-[60px]     md:w-[100px] md:h-[100px] ')}`}
        >
-          <img src={MugImage}/>
+          <img src={MugImage} alt='NO preview'/>
          
        </div>
       ))}
@@ -178,7 +178,7 @@ console.log(typeof(res))
         <div className={`${InputValue} w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px]  relative `}>
           
 <div className='  w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px]  relative'>
-<img src={MugImage} className='w-full h-full ' />
+<img src={MugImage} className='w-full h-full ' alt='NO preview'/>
         <p className='absolute top-9 left-7'>1</p>
 </div>
  </div>
@@ -187,7 +187,7 @@ console.log(typeof(res))
 
         <div className={`${InputValue2}  w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px]   `}> 
        <div className=' w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px] relative'>
-<img src={MugImage} className='w-full h-full ' />
+<img src={MugImage} className='w-full h-full ' alt='NO preview'/>
         <p className='absolute top-9 left-7'>2</p>
 </div>
         </div>
@@ -196,7 +196,7 @@ console.log(typeof(res))
 {/* div 3 */}
         <div className={`${InputValue3}  w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px]  `}> 
         <div className='  w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px]  relative'>
-<img src={MugImage} className='w-full h-full ' />
+<img src={MugImage} className='w-full h-full 'alt='NO preview' />
         <p className='absolute top-9 left-7'>3</p>
 </div></div>
 
@@ -204,7 +204,7 @@ console.log(typeof(res))
         <div className={`${InputValue4}   w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px]   `}> 
         <div className=' w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px]  relative'>
 
-<img src={MugImage} className='w-full h-full ' />
+<img src={MugImage} className='w-full h-full ' alt='NO preview'/>
         <p className='absolute top-9 left-7'>4</p>
 </div></div>
       
