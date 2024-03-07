@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FlexBoxCup-Game/static/css/main.66863c7b.css",
-    "main.js": "/FlexBoxCup-Game/static/js/main.73edbf7e.js",
+    "main.css": "/FlexBoxCup-Game/static/css/main.87ff7af8.css",
+    "main.js": "/FlexBoxCup-Game/static/js/main.2117f7ec.js",
     "index.html": "/FlexBoxCup-Game/index.html",
-    "main.66863c7b.css.map": "/FlexBoxCup-Game/static/css/main.66863c7b.css.map",
-    "main.73edbf7e.js.map": "/FlexBoxCup-Game/static/js/main.73edbf7e.js.map"
+    "main.87ff7af8.css.map": "/FlexBoxCup-Game/static/css/main.87ff7af8.css.map",
+    "main.2117f7ec.js.map": "/FlexBoxCup-Game/static/js/main.2117f7ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.66863c7b.css",
-    "static/js/main.73edbf7e.js"
+    "static/css/main.87ff7af8.css",
+    "static/js/main.2117f7ec.js"
   ]
 }
