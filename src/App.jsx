@@ -122,7 +122,7 @@ console.log(typeof(res))
 // main screen div 
     
 <div className='maindiv w-[100vw] h-[100vh]' >
-   <div className=' flex  justify-between items-center'>
+   <div className=' flex  justify-center items-center'>
 
    <h1 className='text-center mt-[10px]  text-pink-400 font-bold text-[50px] '>FLEXBOX CUP </h1> 
   </div> 
