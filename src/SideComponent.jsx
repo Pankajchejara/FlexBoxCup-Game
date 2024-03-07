@@ -4,10 +4,10 @@ const SideComponent = ({child,changeHandler,ChangeInputValue,cupbox,clickHandler
 
   return (
     <div>
-     <div className=' shadow-2xl shadow-blue-500/50    flex justify-center items-center flex-col sidediv   w-[320px] h-[500px] sm:w-[400px] sm:h-[500px] md:w-[500px] md:h-[500px]  mb-3'>
-  <div className=' w-[80%] flex justify-center items-center  flex-col  '>
-
+     <div className='  shadow-2xl shadow-blue-500/50    flex justify-center items-center flex-col sidediv gap-y-9  w-[320px] h-[500px] sm:w-[400px] sm:h-[500px] md:w-[500px] md:h-[500px]  mb-3'>
     <p className='text-3xl  font-bold'>FLEXBOX GAME</p>
+  <div className=' w-[80%]  flex justify-center items-center  flex-col  '>
+
 
     <div className='   w-full h-full '>
        <p className='text-xl gap-y-4'>
