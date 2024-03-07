@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FlexBoxCup-Game/static/css/main.66863c7b.css",
+    "main.js": "/FlexBoxCup-Game/static/js/main.a58f9476.js",
+    "index.html": "/FlexBoxCup-Game/index.html",
+    "main.66863c7b.css.map": "/FlexBoxCup-Game/static/css/main.66863c7b.css.map",
+    "main.a58f9476.js.map": "/FlexBoxCup-Game/static/js/main.a58f9476.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66863c7b.css",
+    "static/js/main.a58f9476.js"
+  ]
+}
